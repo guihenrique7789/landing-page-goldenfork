@@ -47,3 +47,5 @@ Breakpoints: 500px, 768px, 992px, 1200px
 --
 Nota: Esta é uma landing page fictícia criada para fins demonstrativos. "Golden Fork" é um nome fictício e não está associado a nenhum restaurante real.
 
+---
+Versão Online : https://guihenrique7789.github.io/landing-page-goldenfork/
