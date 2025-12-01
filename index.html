@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Golden Fork | Restaurante</title>
+</head>
+<body>
+
+
+<nav class="navbar">
+    <div class="nav-logo"></div>
+
+    <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+
+<header class="title">
+    <h1>Golden Fork</h1>
+    <img src="logo.png" alt="Logo Golden Fork">
+    <p>
+        Uma experiência gastronômica sofisticada, combinando ingredientes
+        selecionados, tradição e um toque contemporâneo.
+    </p>
+</header>
+
+<section class="about" id="sobre">
+    <div class="about-container">
+        <h2>Sobre o Golden Fork</h2>
+
+        <p>
+      O Golden Fork nasceu da paixão por transformar ingredientes simples em
+      experiências memoráveis. Inspirado na culinária europeia clássica e
+      reinterpretado com um toque contemporâneo, nosso restaurante une tradição,
+      sofisticação e autenticidade.
+     </p>
+
+        <p>
+      Cada prato é cuidadosamente elaborado com ingredientes selecionados,
+      priorizando frescor, equilíbrio e atenção aos detalhes. Acreditamos que a
+      verdadeira gastronomia vai além do sabor — ela envolve momentos,
+      sensações e histórias.
+        </p>
+
+        <p>
+      Mais do que um restaurante, o Golden Fork é um convite para desacelerar,
+      apreciar boa comida e compartilhar momentos especiais em um ambiente
+      acolhedor e elegante.
+        </p>
+</div>    
+</section>
+
+<!-- MENU -->
+<section class="menu" id="menu">
+    <h2>Cardápio</h2>
+
+    <div class="menu-list">
+
+        <div class="menu-item">
+            <img src="prato1.jpg" alt="Bruschetta Clássica">
+            <div class="menu-text">
+                <span class="dish">Bruschetta Clássica</span>
+                <span class="desc">Pão artesanal, tomate fresco, manjericão e azeite</span>  
+            </div>
+
+            <div class="price">
+                <span class="new">R$ 24</span>   
+                <span class="old">R$ 32</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="prato2.jpg" alt="Carpaccio de Carne">
+            <div class="menu-text">
+                <span class="dish">Carpaccio de Carne</span>
+                <span class="desc">Lâminas finas de carne, parmesão e rúcula</span>
+            </div>
+             <div class="price">
+                <span class="new">R$ 54</span>   
+                <span class="old">R$ 42</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="prato3.jpg" alt="Risoto de Cogumelos">
+            <div class="menu-text">
+                <span class="dish">Risoto de Cogumelos</span>
+                <span class="desc">Arroz arbório com cogumelos selecionados</span>
+            </div>
+             <div class="price">
+                <span class="new">R$ 68</span>   
+                <span class="old">R$ 56</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="gallery" id="galeria">
+    <h2>Galeria</h2>
+
+    <div class="gallery-grid">
+        <img src="galeria1.jpg" alt="Prato gourmet">
+        <img src="galeria2.jpg" alt="Interior do restaurante">
+        <img src="galeria3.jpg" alt="Risoto servido">
+        <img src="galeria4.jpg" alt="Chef finalizando prato">
+        <img src="galeria5.jpg" alt="Mesa posta no restaurante">
+        <img src="galeria6.jpg" alt="Prato principal sofisticado">
+    </div>
+</section>
+
+<section class="blog-events" id="blog">
+    <div class="container">
+        <h2>Blog & Eventos</h2>
+        <p class="subtitle">Fique por dentro das novidades, eventos especiais e dicas gastronômicas</p>
+        
+        <div class="blog-grid">
+            
+          
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="evento1.jpg" alt="Noite de Vinhos">
+                    <span class="blog-category">Evento</span>
+                </div>
+                <div class="blog-content">
+                    <h3>Noite de Vinhos & Harmonização</h3>
+                    <p class="blog-date">25 de Outubro • 20:00</p>
+                    <p>Uma experiência exclusiva de harmonização com vinhos selecionados e pratos especiais do chef.</p>
+                    <a href="#" class="blog-btn">Reservar Vaga</a>
+                </div>
+            </article>
+            
+           
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="blog1.jpg" alt="Segredos do Chef">
+                    <span class="blog-category">Dicas</span>
+                </div>
+                <div class="blog-content">
+                    <h3>Os Segredos da Massa Perfeita</h3>
+                    <p class="blog-date">18 de Outubro</p>
+                    <p>Aprenda com nosso chef os segredos para preparar a massa fresca perfeita em casa.</p>
+                    <a href="#" class="blog-btn">Ler Artigo</a>
+                </div>
+            </article>
+            
+
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="evento2.jpg" alt="Jantar Romântico">
+                    <span class="blog-category">Especial</span>
+                </div>
+                <div class="blog-content">
+                    <h3>Jantar Romântico Especial</h3>
+                    <p class="blog-date">Todo mês • Vagas limitadas</p>
+                    <p>Menu exclusivo para casais, com ambiente íntimo, música ao vivo e flores na mesa.</p>
+                    <a href="#" class="blog-btn">Reservar Mesa</a>
+                </div>
+            </article>
+            
+        </div>
+        
+        <div class="newsletter">
+            <h3>Receba Nossas Novidades</h3>
+            <p>Inscreva-se para receber eventos exclusivos, ofertas especiais e dicas gastronômicas</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Seu melhor e-mail" required>
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="contato-localizacao" id="contato">
+    <div class="container">
+        <h2>Contato & Localização</h2>
+        <p class="subtitle">Venha nos visitar ou entre em contato para reservas e informações</p>
+        
+        <div class="contato-grid">
+            
+           
+            <div class="info-card">
+                <div class="info-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"/>
+                    </svg>
+                </div>
+                <h3>Endereço</h3>
+                <p>Rua das Flores, 123<br>
+                   Jardim Europa<br>
+                   São Paulo - SP<br>
+                   CEP: 01234-001</p>
+            </div>
+            
+            <div class="info-card">
+                <div class="info-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"/>
+                    </svg>
+                </div>
+                <h3>Telefone</h3>
+                <p>(11) 1234-5678<br>
+                   (11) 91011-1213 (WhatsApp)</p>
+                <a href="tel:+551134567890" class="contato-link">Ligar Agora</a>
+            </div>
+            
+            <div class="info-card">
+                <div class="info-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"/>
+                    </svg>
+                </div>
+                <h3>E-mail</h3>
+                <p>reservas@goldenfork.com<br>
+                   contato@goldenfork.com</p>
+                <a href="mailto:reservas@goldenfork.com" class="contato-link">Enviar E-mail</a>
+            </div>
+            
+            <div class="info-card">
+                <div class="info-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12C20,14.97 17.84,17.44 15,18.14V16H9V18.14C6.16,17.44 4,14.97 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12C6,14.21 7.79,16 10,16H14C16.21,16 18,14.21 18,12A6,6 0 0,0 12,6Z"/>
+                    </svg>
+                </div>
+                <h3>Horários</h3>
+                <p>Terça a Quinta: 18h - 23h<br>
+                   Sexta e Sábado: 18h - 00h<br>
+                   Domingo: 12h - 18h<br>
+                   Segunda: Fechado</p>
+            </div>
+            
+        </div>
+        
+        <div class="contato-content">
+            
+            
+            <div class="mapa-container">
+                <div class="mapa-placeholder">
+                    <div class="mapa-mock">
+                        <div class="mapa-rua">Rua das Flores</div>
+                        <div class="mapa-ponto">
+                            <div class="ponto-icon">📍</div>
+                            <div class="ponto-texto">Golden Fork</div>
+                        </div>
+                        <div class="mapa-ruas">
+                            <div class="rua">Av. Paulista</div>
+                            <div class="rua">R. Augusta</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://maps.google.com/?q=Rua+das+Flores+123+São+Paulo+SP" 
+                   target="_blank" 
+                   class="mapa-link">
+                   Abrir no Google Maps
+                </a>
+            </div>
+            
+            
+            <div class="form-container">
+                <h3>Faça sua Reserva</h3>
+                <form class="reserva-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Seu telefone" required>
+                    </div>
+                    <div class="form-group-dupla">
+                        <div class="form-group">
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Horário</option>
+                                <option value="18:00">18:00</option>
+                                <option value="19:00">19:00</option>
+                                <option value="20:00">20:00</option>
+                                <option value="21:00">21:00</option>
+                                <option value="22:00">22:00</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="" disabled selected>Número de pessoas</option>
+                            <option value="1">1 pessoa</option>
+                            <option value="2">2 pessoas</option>
+                            <option value="3">3 pessoas</option>
+                            <option value="4">4 pessoas</option>
+                            <option value="5">5+ pessoas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Observações especiais (alergias, celebração, etc.)" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="reserva-btn">Reservar Mesa</button>
+                </form>
+            </div>
+            
+        </div>
+        
+    </div>
+<script src="script.js"></script>
+<footer class="footer">
+    <div class="footer-container">
+        
+       
+        <div class="footer-col">
+            <div class="footer-brand">
+                <span class="footer-logo-text">Golden Fork</span>
+                <p class="footer-tagline">Uma experiência gastronômica sofisticada</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="currentColor" d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="TripAdvisor">
+                    <svg viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="currentColor" d="M12,5.34C13.17,5.34 14.18,6.1 14.44,7.25C14.61,8 14.38,8.8 13.8,9.33C13.39,9.73 12.81,10 12,10C10.81,10 9.82,9.27 9.56,8.12C9.39,7.36 9.62,6.55 10.2,6C10.61,5.62 11.19,5.34 12,5.34M12,2C15.87,2 19,5.13 19,9C19,11.38 17.81,13.47 16,14.74V20C16,20.55 15.55,21 15,21H9C8.45,21 8,20.55 8,20V14.74C6.19,13.47 5,11.38 5,9C5,5.13 8.13,2 12,2M12,4C9.24,4 7,6.24 7,9C7,10.85 7.93,12.41 9.29,13.33L10,13.77V19H14V13.77L14.71,13.33C16.07,12.41 17,10.85 17,9C17,6.24 14.76,4 12,4Z"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="WhatsApp">
+                    <svg viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="currentColor" d="M12.04,2C6.58,2 2.13,6.45 2.13,11.91C2.13,13.66 2.59,15.36 3.45,16.86L2.05,22L7.3,20.62C8.75,21.41 10.38,21.83 12.04,21.83C17.5,21.83 21.96,17.38 21.96,11.91C21.96,6.45 17.5,2 12.04,2M12.04,20.33C10.6,20.33 9.19,19.96 7.96,19.27L7.67,19.1L4.97,19.83L5.73,17.26L5.5,16.94C4.68,15.61 4.2,14.09 4.2,12.5C4.2,7.7 7.83,3.89 12.04,3.89C16.25,3.89 19.88,7.7 19.88,12.5C19.88,17.31 16.25,21.11 12.04,21.11M16.54,15.33C16.3,15.28 15.84,15.14 15.62,15.06C15.41,14.98 15.25,14.94 15.09,15.17C14.93,15.4 14.5,15.86 14.37,16C14.24,16.14 14.11,16.16 13.88,16.11C13.65,16.06 13.09,15.92 12.41,15.33C11.86,14.85 11.5,14.23 11.37,14C11.24,13.77 11.36,13.66 11.47,13.55C11.57,13.44 11.69,13.27 11.81,13.13C11.92,12.99 11.97,12.91 12.06,12.74C12.15,12.57 12.11,12.43 12.06,12.31C12,12.19 11.52,10.96 11.32,10.43C11.12,9.91 10.92,9.98 10.77,9.98C10.62,9.98 10.46,9.97 10.31,9.97C10.16,9.97 9.95,10.03 9.78,10.21C9.61,10.39 9.08,10.88 9.08,12.07C9.08,13.26 9.96,14.36 10.09,14.5C10.22,14.64 11.71,16.5 14.04,17.44C14.9,17.78 15.56,17.95 16.06,18.07C16.79,18.25 17.43,18.2 17.89,18.09C18.38,17.97 19.22,17.46 19.44,16.9C19.67,16.34 19.67,15.87 19.62,15.78C19.57,15.69 19.42,15.62 19.27,15.57C19.12,15.52 18.12,15.15 16.54,15.33Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-bottom-container">
+            <p class="copyright">© 2023 Golden Fork Restaurante. Todos os direitos reservados.</p>
+            <div class="footer-legal">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Cookies</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
